@@ -3,20 +3,25 @@
     padding: 0;
 }
 
-body{
+/* body{
+    width: 100%;
     background-image: url("/image/02.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-}
+    height: 105vh;
+   background-position: center;
+   background: linear-gradient(to top, rgba(0,0,0,0.5)90%,rgba(0,0,0,0.5)90%),
+    
+} */
 
 
 
 .main{
     width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(/image/02.jpg);
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 105vh;
 }
 
 .navbar{
@@ -175,7 +180,7 @@ ul li a:hover{
 
 .form{
     width: 250px;
-    height: 380px;
+    height: 430px;
     background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
     position: absolute;
     top: -20px;
@@ -189,17 +194,18 @@ ul li a:hover{
     width: 220px;
     font-family: sans-serif;
     text-align: center;
-    color: #ff7200;
-    font-size: 22px;
-    background-color: #fff;
+    color: #000000;
+    font-size: 18px;
+    background-color: #ff7200;
     border-radius: 10px;
     margin: 2px;
     padding: 8px;
+    margin-top: 2%;
 }
 
 .form input{
     width: 240px;
-    height: 35px;
+    height: 20px;
     background: transparent;
     border-bottom: 1px solid #ff7200;
     border-top: none;
@@ -244,8 +250,8 @@ ul li a:hover{
 }
 .form .link{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
-    padding-top: 20px;
+    font-size: 15px;
+    padding-top: 15px;
     text-align: center;
 }
 .form .link a{
@@ -254,12 +260,12 @@ ul li a:hover{
 }
 .liw{
     padding-top: 15px;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
     text-align: center;
 }
 .icons a{
     text-decoration: none;
-    color: #fff;
+    color: #000000;
 }
 .icons ion-icon{
     color: #fff;
