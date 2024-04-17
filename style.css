@@ -354,3 +354,8 @@
     text-decoration: none;
     color: #f9f9f9;
 }
+
+.b-flex{
+    width: 100px;
+    height: 35px;
+}
